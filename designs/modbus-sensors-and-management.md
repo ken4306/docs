@@ -124,8 +124,8 @@ Additionally, the following existing interfaces will also be used -
   - A better alternative can be xyz.openbmc_project.Common.Threshold
 
 The interfaces will be created at the
-/xyz/openbmc*project/sensors/\<SensorType\>/\<SensorName\> objectPath, where
-*\<SensorType\>_ and _\<SensorName\>\_ correspond to properties defined in the
+`/xyz/openbmc_project/sensors/<SensorType>/<SensorName>` objectPath, where
+`<SensorType>` and `<SensorName>` correspond to properties defined in the
 ModbusDevice EM configuration. The table below illustrates some possible sensor
 types and associated information for liquid cooling apparatus.
 

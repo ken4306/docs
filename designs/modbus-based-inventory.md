@@ -110,7 +110,6 @@ change addresses requirement #3.
 The DBus Interface for Modbus hardware inventory will consist of following -
 
 - [xyz.openbmc_project.Configuration.ModbusDeviceDetect](https://gerrit.openbmc.org/c/openbmc/phosphor-dbus-interfaces/+/77293)
-
   - Provides configuration details, including Modbus address range and inventory
     registers, to facilitate the discovery of Modbus devices.
 
