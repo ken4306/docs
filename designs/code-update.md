@@ -363,7 +363,7 @@ designated state via the JobRemoved signal.
 A multi part image has multiple component images as part of one image package.
 PLDM image is one such example of multi part image format. Sometimes, for multi
 part devices there is no concrete physical firmware device but firmware device
-itself consists of multiple phsyical components, each of which may have its own
+itself consists of multiple physical components, each of which may have its own
 component image. In such a scenario, \<deviceX>CodeUpdater can create a logical
 inventory item for the firmware device. While performing the firmware device
 update, the client may target the logical firmware device which further knows
