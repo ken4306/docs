@@ -13,3 +13,4 @@ vulnerability, see
 - James Mihm <James.Mihm@gmail.com>
 - Joseph Reynolds <jrey@linux.ibm.com>
 - Patrick Williams <patrick@stwcx.xyz>
+- Vernon Mauery <vernon.mauery@gmail.com>
