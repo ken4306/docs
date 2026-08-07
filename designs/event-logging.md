@@ -335,13 +335,6 @@ will be able to contribute new error and tracing event definitions.
 
 ### `phosphor-logging`
 
-> TODO: Should a tracing event be a `Logging.Entry` with severity of
-> `Informational` or should they be a new type, such as `Logging.Event` and
-> managed separately. The `phosphor-logging` default `meson.options` have
-> `error_cap=200` and `error_info_cap=10`. If we increase the total number of
-> events allowed to 10K, the majority of them are likely going to be information
-> / tracing events.
-
 The `Logging.Entry` interface's `AdditionalData` property should change to
 `dict[string, variant[string,int64_t,size_t,object_path]]`.
 
